@@ -1,30 +1,40 @@
-class BankAccount:
-    def __init__(self, accountName, accountNumber, accountBalance):
-        self.accountName = accountName
-        self.accountNumber = accountNumber
-        self.accountBalance = accountBalance
-    def Bank_Account(self):
-        print(f' Account holder {self.accountName}, with account number {self.accountNumber}, having a closing balance of {self.accountBalance}')
+# class BankAccount:
+#     def __init__(self, accountName, accountNumber, accountBalance):
+#         self.accountName = accountName
+#         self.accountNumber = accountNumber
+#         self.accountBalance = accountBalance
+#     def Bank_Account(self):
+#         print(f' Account holder {self.accountName}, with account number {self.accountNumber}, having a closing balance of {self.accountBalance}')
         
-    def Deposit(self):
-        Deposit = 5000
-        self.deposit = Deposit + self.accountBalance
-        return self.deposit
+#     def Deposit(self):
+#         Deposit = 5000
+#         self.deposit = Deposit + self.accountBalance
+#         return self.deposit
 
-    def Withdraw(self):
-        Withdraw = 3000
-        self.withdraw = self.deposit - Withdraw 
-        return self.withdraw
+#     def Withdraw(self):
+#         Withdraw = 3000
+#         self.withdraw = self.deposit - Withdraw 
+#         return self.withdraw
 
-    def CheckBalance(self):
-        balance=self.withdraw
-        return balance
+#     def CheckBalance(self):
+#         balance=self.withdraw
+#         return balance
 
-account1=BankAccount('Abduljabbar', 1122334455, 10000)
-account2=BankAccount('Salim', 6677889910, 5000)
-print(f'first account balance will be: {BankAccount.Deposit(account1)}')
-print(f'second account balance will be: {BankAccount.Withdraw(account1)}')
-print(f'current account balance will be: {BankAccount.CheckBalance(account1)}')
+# account1=BankAccount('Abduljabbar', 1122334455, 10000)
+# account2=BankAccount('Salim', 6677889910, 5000)
+# print(f'first account balance will be: {BankAccount.Deposit(account1)}')
+# print(f'second account balance will be: {BankAccount.Withdraw(account1)}')
+# print(f'current account balance will be: {BankAccount.CheckBalance(account1)}')
+
+# class = BankAccount:
+#     def _init_(self, account_name, account_number, account_balance=0)
+#     self.account_name = account_name
+#     self.account_number = account_number
+#     self.account_balance = account_balance
+#     self. balance = initial_balance
+
+#     def
+
 
 
 
